@@ -1,0 +1,108 @@
+
+*{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVE S */
+
+
+
+@media (max-width:480px){
+
+    /* LAYOUT */
+
+
+    .container{
+        max-width: 400px;
+        margin: 0 auto;
+
+    }
+
+    .row {
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+
+    .lessons .col{
+        width: calc(12 * 100% / 12);
+    }
+    
+
+
+    
+    /* HEADER */
+
+
+
+    /* LESSONS SECTION */
+
+    h2{
+        max-width: 100%;
+    }
+
+    .lessons .col{
+        width: calc(12 * 100% / 12);
+    }
+
+
+    /* STEPS SECTION */  
+    .steps .col{
+        width: 100%;
+    }
+
+    .steps{
+        margin: 3rem 0 0 0;
+    }
+
+
+    /* WHY US SECTION */
+
+    .why-us .col{
+        width: 100%;
+    }
+
+    .why-us{
+        background-color: black;
+        margin-bottom: 0;
+        padding-top: 3rem;
+    }
+
+
+
+}
+
+
+/* RESPONSIVE M */
+@media (max-width: 768px){
+
+/* HEADER */
+
+
+/* LESSONS SECTION */
+
+
+
+
+/* STEPS SECTION */
+
+
+
+/* WHY US SECTION */
+
+
+
+
+
+}
+
+
+
+
+/* RESPONSIVE L*/
